@@ -7,7 +7,7 @@
 header {
     background: #afa2ff;
     height: 5rem;
-    color: white;
+    color: #383f51;
 
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ button {
     border-radius: 10px;
     border: none;
     background: #383f51;
-    color: white;
+    color: #afa2ff;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
