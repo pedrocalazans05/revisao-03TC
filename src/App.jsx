@@ -14,6 +14,10 @@ export function App() {
     setSenha(evento.target.value)
   }
 
+  function handleSubmit() {
+    alert(`Usuario: ${usuario} / Senha: ${senha}`)
+  }
+
   return(
     <>
     <header>
@@ -21,7 +25,7 @@ export function App() {
     </header>
     
     <main>
-      <form action="">
+      <form action="" onSubmit={handleSubmit()}>
         <div>
           <label htmlFor="usuario">Usuário</label>
           <input 
